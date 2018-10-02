@@ -46,7 +46,7 @@ namespace Battlehub.RTCommon
 
         static RuntimeEditorApplication()
         {
-            ComponentEditorSettings = new ComponentEditorSettings(false, false, false);
+            ComponentEditorSettings = new ComponentEditorSettings(true, true, true);
             Reset();
         }
 
